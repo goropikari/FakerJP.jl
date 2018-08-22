@@ -9,31 +9,34 @@ Generator of fake data for Japanese.
 
 ## Basic usage
 ```julia
-julia> using FakerJP
+julia> using FakerJP, Random
+
+julia> Random.seed!(1);
 
 julia> p = rand(Japanese)
 Japanese
- 加藤 仁志
- かとう ひとし
- カトウ ヒトシ
+ 性別 女
+ 小暮 柑奈
+ コグレ カンナ
+ こぐれ かんな
 
 julia> name(p)
-"加藤 仁志"
+"小暮 柑奈"
 
 julia> name(p, type=2)
-"かとう ひとし"
+"コグレ カンナ"
 
 julia> name(p, type=3)
-"カトウ ヒトシ"
+"こぐれ かんな"
 
 julia> name()
-"樽床 孝一"
+"染谷 達"
 
 julia> FakerJP.prefecture()
-"群馬県"
+"香川県"
 
-julia> FakerJP.date()
-"1963年11月 6日"
+julia> FakerJP.rand_date()
+"1928年 1月11日"
 ```
 
 ## Acknowledgement
