@@ -1,0 +1,6 @@
+*.ipynb
+*.ipynb_checkpoints
+make_data
+name.csv
+female_charactor_name.csv
+source.txt

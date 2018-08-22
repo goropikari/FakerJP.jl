@@ -1,0 +1,9 @@
+name = "FakerJP"
+uuid = "2b6a7474-a2b3-11e8-37d5-f16cd6365c1f"
+authors = ["goropikari <goropikari56@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
