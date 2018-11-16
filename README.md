@@ -4,7 +4,7 @@ Generator of fake data for Japanese.
 
 ## Installation
 ```julia
-]add FakerJP
+]add https://github.com/goropikari/FakerJP.jl
 ```
 
 ## Basic usage
